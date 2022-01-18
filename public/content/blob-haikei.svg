@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="785.947" height="779.393" viewBox="0 0 785.947 779.393">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1b75bb"/>
+      <stop offset="1" stop-color="#2e3191"/>
+    </linearGradient>
+  </defs>
+  <g id="blob-haikei" transform="translate(308.225 431.084) rotate(-60)">
+    <path id="Path_85" data-name="Path 85" d="M318.7-42.382C367.572,57.967,375.5,166.245,330.663,237.325,285.679,308.261,187.782,342,87.145,343.584c-100.781,1.73-204.445-28.547-254.764-102.655S-215.053,48.739-163.293-53.2C-111.389-155.274-10.752-241.2,84.55-238.176,180-235,269.819-142.73,318.7-42.382" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

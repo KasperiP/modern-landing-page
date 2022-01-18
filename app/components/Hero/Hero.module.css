@@ -1,0 +1,73 @@
+.wrapper {
+	height: 58rem;
+	background-blend-mode: normal, color-dodge, normal;
+	background-image: url('/background-cover.svg'), url('/mask.png'),
+		url('/background.svg');
+	background-position: right -500px bottom 0, left, center;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-size: cover, cover, cover;
+}
+.container {
+	display: flex;
+	width: 1330px;
+	max-width: 90%;
+	height: 100%;
+	flex-direction: column;
+	margin: auto;
+}
+
+.heroSection {
+	display: flex;
+	height: calc(100vh - 7rem);
+	align-items: center;
+	justify-content: center;
+}
+
+.heroSection div {
+	width: 50%;
+}
+
+.heroText h1 {
+	font-size: 70px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+.heroText {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.heroText div {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.heroText button {
+	padding: 15px 0 15px 0px;
+	background: linear-gradient(90deg, #fff, #1b75bb);
+	border-radius: 25px;
+	color: blue;
+	cursor: pointer;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.heroImg {
+	user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+	.heroSection {
+		flex-direction: column;
+		gap: 20px;
+	}
+	.heroSection div {
+		width: 100%;
+		text-align: center;
+	}
+	.heroText h1 {
+		font-size: 50px;
+		font-weight: normal;
+		line-height: 1.2;
+	}
+}

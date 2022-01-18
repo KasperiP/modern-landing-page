@@ -1,0 +1,66 @@
+.wrapper {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: var(--ul-white);
+}
+.container {
+	display: flex;
+	width: 1330px;
+	max-width: 90%;
+	flex-direction: column;
+	margin: auto;
+	gap: 5rem;
+}
+.imgContainer {
+	position: relative;
+	width: 50%;
+	height: 500px;
+	background-image: url('/content/blob-haikei.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.contentContainer {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+.contentContainer p {
+	color: var(--ul-black);
+	line-height: 2;
+}
+.contentContainer button {
+	width: 200px;
+	padding: 10px 20px 10px 20px;
+	background: linear-gradient(to right, #2e3191, #1b75bb);
+	border-radius: 20px;
+	text-transform: uppercase;
+}
+
+.textContainer {
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.contentContainer:last-child {
+	flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+	.contentContainer {
+		flex-direction: column;
+	}
+	.imgContainer {
+		width: 100%;
+		height: 300px;
+	}
+	.textContainer {
+		width: 100%;
+	}
+	.contentContainer:last-child {
+		flex-direction: column;
+	}
+}
