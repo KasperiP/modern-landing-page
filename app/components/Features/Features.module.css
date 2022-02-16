@@ -3,13 +3,14 @@
 	padding-bottom: 5rem;
 	background-color: var(--ul-light-blue);
 }
+
 .container {
 	display: flex;
+	flex-direction: column;
+	gap: 5rem;
 	width: 1330px;
 	max-width: 90%;
-	flex-direction: column;
 	margin: auto;
-	gap: 5rem;
 }
 
 .container div {
@@ -24,8 +25,8 @@
 .container h3 {
 	margin-bottom: 0.5rem;
 	color: var(--ul-black);
-	font-size: 1.2rem;
 	font-weight: 500;
+	font-size: 1.2rem;
 }
 
 .container p {
@@ -38,20 +39,20 @@
 
 .featuresGrid {
 	display: grid;
-	width: 100%;
-	gap: 20px;
 	grid-template-columns: repeat(auto-fill, minmax(347px, 1fr));
+	gap: 20px;
+	width: 100%;
 }
 
 .gridItem {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	padding: 10px 10px 50px 10px;
-	background-color: var(--ul-white);
+	padding: 10px 10px 50px;
 	border-radius: 10px 10px 10px 80px;
-	filter: drop-shadow(0px 24px 15px rgba(0, 0, 0, 0.152));
+	background-color: var(--ul-white);
 	text-align: center;
+	filter: drop-shadow(0 24px 15px rgb(0 0 0 / 15.2%));
 	transition: transform 0.15s ease-in-out;
 }
 
@@ -74,6 +75,7 @@
 	.featuresGrid {
 		gap: 50px;
 	}
+
 	.featuresContainer {
 		display: flex;
 		flex-direction: column;

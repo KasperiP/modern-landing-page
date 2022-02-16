@@ -1,26 +1,27 @@
 .wrapper {
 	height: 58rem;
-	background-blend-mode: normal, color-dodge, normal;
 	background-image: url('/background-cover.svg'), url('/mask.png'),
 		url('/background.svg');
 	background-position: right -500px bottom 0, left, center;
-	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-size: cover, cover, cover;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-blend-mode: normal, color-dodge, normal;
 }
+
 .container {
 	display: flex;
+	flex-direction: column;
 	width: 1330px;
 	max-width: 90%;
 	height: 100%;
-	flex-direction: column;
 	margin: auto;
 }
 
 .heroSection {
 	display: flex;
-	height: calc(100vh - 7rem);
 	align-items: center;
 	justify-content: center;
+	height: calc(100vh - 7rem);
 }
 
 .heroSection div {
@@ -28,28 +29,31 @@
 }
 
 .heroText h1 {
-	font-size: 70px;
 	font-weight: bold;
+	font-size: 70px;
 	line-height: 1.2;
 }
+
 .heroText {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 }
+
 .heroText div {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
 }
+
 .heroText button {
-	padding: 15px 0 15px 0px;
-	background: linear-gradient(90deg, #fff, #1b75bb);
+	padding: 15px 0;
 	border-radius: 25px;
+	background: linear-gradient(90deg, #fff, #1b75bb);
 	color: blue;
-	cursor: pointer;
 	font-size: 16px;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 .heroImg {
@@ -61,13 +65,15 @@
 		flex-direction: column;
 		gap: 20px;
 	}
+
 	.heroSection div {
 		width: 100%;
 		text-align: center;
 	}
+
 	.heroText h1 {
-		font-size: 50px;
 		font-weight: normal;
+		font-size: 50px;
 		line-height: 1.2;
 	}
 }

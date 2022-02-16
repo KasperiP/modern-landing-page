@@ -1,19 +1,19 @@
 .wrapper {
 	display: flex;
+	flex-direction: column;
+	gap: 20px;
 	width: 1330px;
 	max-width: 95%;
-	flex-direction: column;
+	margin: auto;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
-	margin: auto;
-	gap: 20px;
 }
 
 .wrapper > div {
 	display: flex;
+	gap: 50px;
 	align-items: center;
 	justify-content: space-between;
-	gap: 50px;
 }
 
 .wrapper h2 {
@@ -27,25 +27,27 @@
 }
 
 .wrapper img {
-	cursor: pointer;
-	filter: grayscale(100%);
 	opacity: 0.3;
+	filter: grayscale(100%);
+	cursor: pointer;
 	transition: all 0.3s ease-in-out;
 }
 
 .wrapper img:hover {
-	filter: none;
 	opacity: 1;
+	filter: none;
 }
 
 @media screen and (max-width: 768px) {
 	.wrapper > div {
 		flex-direction: column;
 	}
+
 	.imgContainer {
 		width: 100%;
 		height: 80px;
 	}
+
 	.wrapper h2 {
 		text-align: center;
 	}
