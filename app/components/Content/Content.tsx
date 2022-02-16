@@ -2,6 +2,7 @@ import Image from 'next/image';
 import businessManImg from '../../../public/content/man.png';
 import businessWomanImg from '../../../public/content/woman.png';
 import styles from './Content.module.css';
+
 const Content = () => {
 	return (
 		<div className={styles.wrapper}>

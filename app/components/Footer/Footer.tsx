@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from './Footer.module.css';
-import logo from '../../../public/uLicense-text.svg';
-import { HiOutlineMail } from 'react-icons/hi';
-import { FaDiscord, FaLinkedinIn } from 'react-icons/fa';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { BsYoutube } from 'react-icons/bs';
+import { FaDiscord, FaLinkedinIn } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+import logo from '../../../public/uLicense-text.svg';
+import styles from './Footer.module.css';
 
 const Footer = () => {
 	return (

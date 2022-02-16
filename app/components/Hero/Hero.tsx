@@ -2,6 +2,7 @@ import Image from 'next/image';
 import heroImg from '../../../public/hero/hero.png';
 import Navbar from '../Navbar/Navbar';
 import styles from './Hero.module.css';
+
 const Hero = () => {
 	return (
 		<>
